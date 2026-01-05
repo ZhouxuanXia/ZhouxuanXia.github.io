@@ -55,7 +55,7 @@ Yu Liu, **Zhouxuan Xia**, Xinyuan Zhang, Jiazhe Huang, Jinyuan Du, Teng Ma
 </div></div>
 <div class='paper-box-text' markdown="1">
 
-[Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch](https://www.researchgate.net/publication/396776306_Visualizing_on_the_Wrist_Impact_of_Motion_Dial_Shape_and_Visualization_Type_on_Smartwatch)
+[Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch](https://ieeexplore.ieee.org/document/11298834)
 
 **Zhouxuan Xia**, Fengyuan Liao, Jinyuan Du, Yu Liu  
 IEEE Visualization (VIS), Vienna, Austria, 2025.  
