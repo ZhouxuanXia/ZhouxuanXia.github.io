@@ -18,11 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 👋 About Me
 
-Hi there! I am currently pursuing an MRes degree in Medical Robotics and Image-Guided Intervention at the [Hamlyn Centre](https://www.imperial.ac.uk/hamlyn-centre/), Department of Medicine, **Imperial College London**, starting from September 2025. My research interests include **Computer Vision** and **Vision-Language Models** for scene understanding and decision support in robotic-assisted surgery.
+Hi there! I am currently pursuing an MRes degree in Medical Robotics and Image-Guided Intervention at the [Hamlyn Centre](https://www.imperial.ac.uk/hamlyn-centre/), Department of Medicine, **Imperial College London**, starting from September 2025. My research interests include **Computer Vision** and **Medical Imaging** in robotic-assisted surgery.
 
 In July 2025, I completed my BSc in Information and Computing Science at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en), graduating with a First Class Degree with Honours, including a one-year research exchange in Computer Science at [the University of Liverpool](https://www.liverpool.ac.uk/), where I also achieved First Class Honours. I have been fortunate to be supervised by [Dr.Yu Liu](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02/) and to serve as a Research Assistant during my undergraduate and research training, focusing on **Human–Computer Interaction (HCI)** and **Data Visualization on Mobile Devices**.
 
-My recent work focuses on building multimodal frameworks and agentic workflows around large language models to interpret complex surgical workflows, fuse video, kinematics and semantic masks, and  provide reliable, language-grounded guidance. In the long run, I hope the systems can move with the rhythm of the operating room—quietly weaving pixels, motions, and words into a kind of second sight that lets surgeons see more clearly and cut more gently.
+My recent work focuses on Medical Imaging and Semantic Segmentation for robot-assisted surgery, with an emphasis on robust performance in real endoscopic scenes and on label-efficient pipelines that turn pixel-level understanding into actionable decision support.
 
 # 📖 Educations
 - *Sep 2025 – Present*, MRes in Medical Robotics and Image-Guided Intervention, Imperial College London
