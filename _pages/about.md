@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 👋 About Me
 
-Hi there! I am currently pursuing an MRes degree in Medical Robotics and Image-Guided Intervention at the [Hamlyn Centre](https://www.imperial.ac.uk/hamlyn-centre/), Department of Medicine, **Imperial College London**, starting from September 2025. My research interests include **Computer Vision** and **Medical Imaging** in robotic-assisted surgery.
+Hi there! I am currently pursuing an MRes degree in Medical Robotics and Image-Guided Intervention at the [Hamlyn Centre](https://www.imperial.ac.uk/hamlyn-centre/), Department of Medicine, **Imperial College London**, starting from September 2025. My research interests include **Computer Vision** and **Medical Imaging** in robotic-assisted surgery, supervised by [Dr. Dandan Zhang] (https://profiles.imperial.ac.uk/d.zhang17) and [Dr. Qingbiao Li] (https://qingbiaoli.github.io/).
 
 In July 2025, I completed my BSc in Information and Computing Science at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en), graduating with a First Class Degree with Honours, including a one-year research exchange in Computer Science at [the University of Liverpool](https://www.liverpool.ac.uk/), where I also achieved First Class Honours. I have been fortunate to be supervised by [Dr.Yu Liu](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02/) and to serve as a Research Assistant during my undergraduate and research training, focusing on **Human–Computer Interaction (HCI)** and **Data Visualization on Mobile Devices**.
 
