@@ -31,7 +31,7 @@ My recent work focuses on Surgical Scene Understanding and Semantic Segmentation
 
 # 🔥 News
 - *Jun. 2026*: &nbsp;🎉🎉 Our paper “SAM-LRU: Patch-wise Recurrent Latent-State Estimation for Temporally Robust Trustworthy Surgical Video Segmentation” was accepted to the **Safe World Models for Trustworthy Embodied AI Workshop at ECCV 2026**.
-- *Oct. 2025*: &nbsp;🎉🎉I was delighted and proud to join **Mohism Lab**, led by [Dr. Qingbiao Li](https://qingbiaoli.github.io/) at the **University of Macau** and **University of Macau Advanced Research Institute** in Hengqin.
+- *Oct. 2025*: &nbsp;🎉🎉 I was delighted and proud to join **Mohism Lab**, led by [Dr. Qingbiao Li](https://qingbiaoli.github.io/) at the **University of Macau** and **University of Macau Advanced Research Institute** in Hengqin.
 - *Jun. 2025*: &nbsp;🎉🎉 My undergraduate thesis “Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch” was accepted to **IEEE VIS 2025**.
 - *Jul. 2025*: &nbsp;🎉🎉 Our paper “Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches” was accepted to **Computer Graphics Forum (CGF)**.
 - *Feb. 2023*: &nbsp;🎉🎉 Our paper “A Study on Activity Visualization for Smart Watches” was accepted to **IEEE PacificVis 2023**.
