@@ -20,9 +20,9 @@ redirect_from:
 
 Hi there! I am currently pursuing an MRes degree in Medical Robotics and Image-Guided Intervention at the [Hamlyn Centre](https://www.imperial.ac.uk/hamlyn-centre/), Department of Medicine, **Imperial College London**, starting from September 2025. My research interests include **Computer Vision** and **Medical Imaging** in robotic-assisted surgery, supervised by [Dr. Dandan Zhang](https://profiles.imperial.ac.uk/d.zhang17) and [Dr. Qingbiao Li](https://qingbiaoli.github.io/).
 
-In July 2025, I completed my BSc in Information and Computing Science at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en), graduating with a First Class Degree with Honours, including a one-year research exchange in Computer Science at [the University of Liverpool](https://www.liverpool.ac.uk/), where I also achieved First Class Honours. I have been fortunate to be supervised by [Dr.Yu Liu](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02/) and to serve as a Research Assistant during my undergraduate and research training, focusing on **Human–Computer Interaction (HCI)** and **Data Visualization on Mobile Devices**.
+In July 2025, I completed my BSc in Information and Computing Science at [Xi’an Jiaotong-Liverpool University (XJTLU)](https://www.xjtlu.edu.cn/en) with First Class Honours, including a one-year research exchange in Computer Science at [the University of Liverpool](https://www.liverpool.ac.uk/). During my undergraduate studies, I conducted research in **Human–Computer Interaction** and **Mobile Data Visualization** under the supervision of [Dr. Yu Liu](https://scholar.xjtlu.edu.cn/en/persons/YuLiu02/).
 
-My recent work focuses on Medical Imaging and Semantic Segmentation for robot-assisted surgery, with an emphasis on robust performance in real endoscopic scenes and on label-efficient pipelines that turn pixel-level understanding into actionable decision support.
+My recent work focuses on Surgical Scene Understanding and Semantic Segmentation for robot-assisted surgery, with an emphasis on robust performance in real endoscopic scenes and on label-efficient pipelines that turn pixel-level understanding into actionable decision support.
 
 # 📖 Educations
 - *Sep 2025 – Present*, MRes in Medical Robotics and Image-Guided Intervention, Imperial College London
@@ -30,6 +30,8 @@ My recent work focuses on Medical Imaging and Semantic Segmentation for robot-as
 - *Sep 2021 – Jul 2025*, BSc in Information and Computing Science, First Class Honours, Xi’an Jiaotong-Liverpool University (XJTLU)
 
 # 🔥 News
+- *Jun. 2026*: &nbsp;🎉🎉 Our paper “SAM-LRU: Patch-wise Recurrent Latent-State Estimation for Temporally Robust Trustworthy Surgical Video Segmentation” was accepted to the **Safe World Models for Trustworthy Embodied AI Workshop at ECCV 2026**.
+- *Oct. 2025*: &nbsp;🎉🎉I was delighted and proud to join **Mohism Lab**, led by [Dr. Qingbiao Li](https://qingbiaoli.github.io/) at the **University of Macau** and **University of Macau Advanced Research Institute** in Hengqin.
 - *Jun. 2025*: &nbsp;🎉🎉 My undergraduate thesis “Visualizing on the Wrist: Impact of Motion, Dial Shape and Visualization Type on Smartwatch” was accepted to **IEEE VIS 2025**.
 - *Jul. 2025*: &nbsp;🎉🎉 Our paper “Comparative Study of Four Visualization Techniques and Positional Variations for Displaying Exercise Data on Smartwatches” was accepted to **Computer Graphics Forum (CGF)**.
 - *Feb. 2023*: &nbsp;🎉🎉 Our paper “A Study on Activity Visualization for Smart Watches” was accepted to **IEEE PacificVis 2023**.
@@ -45,7 +47,7 @@ My recent work focuses on Medical Imaging and Semantic Segmentation for robot-as
 [Interpreting Multi-Metric Data Visualization on Smartwatches: A Case Study of Activity Rings](#)
 
 Yu Liu, **Zhouxuan Xia**, Xinyuan Zhang, Jiazhe Huang, Jinyuan Du, Teng Ma  
-- Submitted to *The Eurographics Conference on Visualization (EuroVis 2026)*, under review.  
+- Submitted to *ACM Interactive Surfaces and Spaces (ISS)*, under review.
 
 </div></div>
 
