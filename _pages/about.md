@@ -18,7 +18,7 @@ redirect_from:
   <h2 class="section-label">Education</h2>
   <div class="education-item"><div class="education-crest"><img src="{{ '/images/education/imperial.svg' | relative_url }}" alt=""></div><div class="education-detail"><h3>Imperial College London</h3><p>MRes in Medical Robotics and Image-Guided Intervention, Distinction</p><p class="education-date">Sep 2025 – Sep 2026</p></div></div>
   <div class="education-item"><div class="education-crest"><img src="{{ '/images/education/liverpool.svg' | relative_url }}" alt=""></div><div class="education-detail"><h3>University of Liverpool</h3><p>BSc in Computer Science, First Class Honours</p><p class="education-date">2021 – 2025</p></div></div>
-  <div class="education-item"><div class="education-crest education-crest-xjtlu"><img src="{{ '/images/education/xjtlu.png' | relative_url }}" alt=""></div><div class="education-detail"><h3>Xi’an Jiaotong-Liverpool University</h3><p>BSc in Information and Computing Science, First Class Honours</p><p class="education-date">2021 – 2025</p></div></div>
+  <div class="education-item"><div class="education-crest"><img src="{{ '/images/education/xjtlu-crest.png' | relative_url }}" alt=""></div><div class="education-detail"><h3>Xi’an Jiaotong-Liverpool University</h3><p>BSc in Information and Computing Science, First Class Honours</p><p class="education-date">2021 – 2025</p></div></div>
 </section>
 
 <section class="content-card card" id="publications">
