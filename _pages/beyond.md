@@ -6,7 +6,7 @@ beyond: true
 
 <section class="content-card card beyond" aria-labelledby="beyond-heading">
   <h2 class="section-label" id="beyond-heading">Beyond research</h2>
-  <p>Outside research, I enjoy travelling and discovering new places.</p>
+  <p>Outside research, I enjoy travelling, discovering new places, and sharing moments with my girlfriend.</p>
   <div class="travel-gallery" aria-label="Travel photographs">
     <figure><img src="{{ '/images/travel/travel-01.jpg' | relative_url }}" alt="London skyline at night" width="1600" height="1200" loading="eager" decoding="async"></figure>
     <figure><img src="{{ '/images/travel/travel-02.jpg' | relative_url }}" alt="Tower Bridge illuminated at night" width="1600" height="1200" loading="eager" decoding="async"></figure>
