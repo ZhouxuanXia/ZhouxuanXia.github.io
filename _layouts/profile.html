@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#about-me">Skip to content</a>
-  <div class="site-grid">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-grid{% if page.beyond %} site-grid-beyond{% endif %}">
     <aside class="profile card" aria-label="Profile">
       <div class="avatar-wrap"><img class="avatar" src="{{ '/images/head.png' | relative_url }}" alt="Illustrated avatar of Zhouxuan Xia"></div>
-      <div class="profile-heading"><h1>{{ site.author.name | escape }}</h1><p class="motto">{{ site.author.bio | escape }}</p><p class="role">MRes, Medical Robotics and<br>Image-Guided Intervention</p><p class="affiliation">Imperial College London</p><p class="location">London, United Kingdom</p></div>
+      <div class="profile-heading"><h1>{{ site.author.name | escape }} <span class="name-chinese" lang="zh-Hans">夏周轩</span></h1><p class="pronouns">HE / HIM</p><p class="motto">{{ site.author.bio | escape }}</p><p class="role">MRes, Medical Robotics and<br>Image-Guided Intervention</p><p class="affiliation">Imperial College London</p><p class="location">London, United Kingdom</p></div>
       <div class="profile-links">
         <a href="mailto:z.xia25@imperial.ac.uk"><span class="profile-icon icon-mail" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span> Email</a>
         <a href="{{ site.author.googlescholar | escape }}"><span class="profile-icon ai ai-google-scholar icon-scholar" aria-hidden="true"></span> Google Scholar</a>
@@ -22,12 +22,12 @@
         <a href="{{ site.author.researchgate | escape }}"><span class="profile-icon ai ai-researchgate icon-researchgate" aria-hidden="true"></span> ResearchGate</a>
       </div>
     </aside>
-    <main class="main-column">
-      <nav class="navigation card" aria-label="Main navigation"><a class="active" href="#about-me">Home</a><a href="#education">Education</a><a href="#publications">Publications</a><a href="#news">News</a></nav>
+    <main class="main-column" id="main-content">
+      <nav class="navigation card" aria-label="Main navigation"><a{% unless page.beyond %} class="active"{% endunless %} href="{{ '/#about-me' | relative_url }}">Home</a><a href="{{ '/#education' | relative_url }}">Education</a><a href="{{ '/#publications' | relative_url }}">Publications</a><a{% if page.beyond %} class="active" aria-current="page"{% endif %} href="{{ '/beyond/' | relative_url }}">Beyond</a></nav>
       {{ content }}
       <footer>© {{ site.author.name | escape }} <span>·</span> {{ site.author.bio | escape }}<details class="image-credits"><summary>Image credits</summary><p class="image-credit-text">Crest illustrations by <a href="https://commons.wikimedia.org/wiki/File:Shield_of_Imperial_College_London.svg">Shadowssettle</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) and <a href="https://commons.wikimedia.org/wiki/File:Shield_of_the_University_of_Liverpool.svg">Shadowssettle</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>); <a href="https://www.xjtlu.edu.cn/en/about/overview/xjtlu-identity">XJTLU identity</a>.</p></details></footer>
     </main>
-    <aside class="news card" id="news" aria-labelledby="news-heading">
+    {% unless page.beyond %}<aside class="news card" id="news" aria-labelledby="news-heading">
       <h2 class="section-label" id="news-heading"><span class="news-dot"></span> News</h2>
       <div class="news-items">
         <article><time>Jun 2026</time><p>Our SAM-LRU paper was accepted to the Safe World Models for Trustworthy Embodied AI Workshop at ECCV 2026. 🎉</p></article>
@@ -36,7 +36,7 @@
         <article><time>Jun 2025</time><p>My undergraduate thesis on wrist visualization was accepted to IEEE VIS 2025.</p></article>
         <article><time>Feb 2023</time><p>Our smartwatch activity visualization paper was accepted to IEEE PacificVis 2023.</p></article>
       </div>
-    </aside>
+    </aside>{% endunless %}
   </div>
 </body>
 </html>
