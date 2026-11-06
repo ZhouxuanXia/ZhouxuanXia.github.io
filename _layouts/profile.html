@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | escape }} - Homepage</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#about-me">Skip to content</a>
+  <div class="site-grid">
+    <aside class="profile card" aria-label="Profile">
+      <div class="avatar-wrap"><img class="avatar" src="{{ '/images/head.png' | relative_url }}" alt="Illustrated avatar of Zhouxuan Xia"></div>
+      <div class="profile-heading"><h1>{{ site.author.name | escape }}</h1><p class="motto">{{ site.author.bio | escape }}</p><p class="role">MRes, Medical Robotics and<br>Image-Guided Intervention</p><p class="affiliation">Imperial College London</p><p class="location">London, United Kingdom</p></div>
+      <div class="profile-links">
+        <a href="mailto:z.xia25@imperial.ac.uk"><span class="profile-icon icon-mail" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span> Email</a>
+        <a href="{{ site.author.googlescholar | escape }}"><span class="profile-icon ai ai-google-scholar icon-scholar" aria-hidden="true"></span> Google Scholar</a>
+        <a href="{{ site.author.orcid | escape }}"><span class="profile-icon ai ai-orcid icon-orcid" aria-hidden="true"></span> ORCID</a>
+        <a href="{{ site.author.researchgate | escape }}"><span class="profile-icon ai ai-researchgate icon-researchgate" aria-hidden="true"></span> ResearchGate</a>
+      </div>
+    </aside>
+    <main class="main-column">
+      <nav class="navigation card" aria-label="Main navigation"><a class="active" href="#about-me">Home</a><a href="#education">Education</a><a href="#publications">Publications</a><a href="#news">News</a></nav>
+      {{ content }}
+      <footer>© {{ site.author.name | escape }} <span>·</span> {{ site.author.bio | escape }}<details class="image-credits"><summary>Image credits</summary><p class="image-credit-text">Crest illustrations by <a href="https://commons.wikimedia.org/wiki/File:Shield_of_Imperial_College_London.svg">Shadowssettle</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) and <a href="https://commons.wikimedia.org/wiki/File:Shield_of_the_University_of_Liverpool.svg">Shadowssettle</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>); <a href="https://www.xjtlu.edu.cn/en/about/overview/xjtlu-identity">XJTLU identity</a>.</p></details></footer>
+    </main>
+    <aside class="news card" id="news" aria-labelledby="news-heading">
+      <h2 class="section-label" id="news-heading"><span class="news-dot"></span> News</h2>
+      <div class="news-items">
+        <article><time>Jun 2026</time><p>Our SAM-LRU paper was accepted to the Safe World Models for Trustworthy Embodied AI Workshop at ECCV 2026. 🎉</p></article>
+        <article><time>Oct 2025</time><p>Joined Mohism Lab, led by <a href="https://qingbiaoli.github.io/">Dr. Qingbiao Li</a>, at the University of Macau and its Advanced Research Institute in Hengqin.</p></article>
+        <article><time>Jul 2025</time><p>Our smartwatch visualization paper was accepted to Computer Graphics Forum.</p></article>
+        <article><time>Jun 2025</time><p>My undergraduate thesis on wrist visualization was accepted to IEEE VIS 2025.</p></article>
+        <article><time>Feb 2023</time><p>Our smartwatch activity visualization paper was accepted to IEEE PacificVis 2023.</p></article>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
